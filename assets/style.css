@@ -9,7 +9,17 @@
 body {
   background: url(img/bg-desktop-red.webp);
   font-family: Josefin Sans;
-}.cartao__conteudo {
+  background-color: aliceblue;
+  padding: 15px 15px;
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.cabecalho__link{
+ color:#000000;
+  text-decoration:none
+}
+.cartao__conteudo {
   background-color: var(--card-front-color);
   text-align: center;
   height: 100%;
